@@ -2,11 +2,11 @@
     display: flex;
     position: relative;
     flex-direction: column;
-    align-items: start;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid rgba(36, 36, 36, .3);
     width: 300px;
-    height: 350px;
+    min-height: 350px;
     margin: 20px 25px;
     padding: 20px 15px;
 }
@@ -42,6 +42,20 @@
     height: 100px;
     width: auto;
     align-self: center;
-    border: 1px solid rgba(36, 36, 36, .3);
-    border-radius: 4px;
+    border: 0.01rem solid rgba(36, 36, 36, .3);
+    border-radius: 0.33rem;
+    margin-bottom: 1rem;
+}
+
+.user-card__list {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.user-card__empty {
+    font-size: 14px;
+    color: #242424;
+    font-weight: 700;
 }

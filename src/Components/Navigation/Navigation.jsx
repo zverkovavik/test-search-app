@@ -1,13 +1,14 @@
 import React from 'react';
 import './Navigation.css';
 import { Link } from 'react-router-dom';
+import { AppRoute } from '../../constants/constants.js';
 
 export function Navigation() {
     return (
         <ul className="navigation">
             <li className="navigation__item">
-                <Link className="navigation__item__link" to={'/'}>
-                    Test Task
+                <Link className="navigation__item__link" to={AppRoute.MAIN_PAGE}>
+                    Search
                 </Link>
             </li>
             <li className="navigation__item">
@@ -16,7 +17,7 @@ export function Navigation() {
                 </a>
             </li>
             <li className="navigation__item">
-                <Link className="navigation__item__link" to={'/about'}>
+                <Link className="navigation__item__link" to={AppRoute.ABOUT}>
                     About
                 </Link>
             </li>

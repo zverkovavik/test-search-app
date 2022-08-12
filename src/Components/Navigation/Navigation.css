@@ -1,7 +1,6 @@
 .navigation {
     display: flex;
     align-items: center;
-    width: 100%;
     border-bottom: 1px solid #242424;
     padding: 20px;
 }
@@ -26,9 +25,9 @@
 }
 
 .navigation__item__link:focus {
-    outline: 0.01rem solid #242424;
+    outline: 0.1rem solid #242424;
     outline-offset: 0.3rem;
-    border: 0.33rem;
+    border-radius: 0.33rem;
 }
 
 .navigation__item__link:hover,

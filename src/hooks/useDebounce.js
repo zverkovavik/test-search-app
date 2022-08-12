@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 
-export function useDebounceEffect(
+export function useDebounce(
     fn,
     waitTime,
     deps = null,

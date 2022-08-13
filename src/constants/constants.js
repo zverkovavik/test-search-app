@@ -16,5 +16,5 @@ export const FUNCTION_CALL_TIME_DELAY = 2000;
 
 export const AppRoute = {
     MAIN_PAGE: '/',
-    ABOUT: './about',
+    ABOUT: '/about',
 }
